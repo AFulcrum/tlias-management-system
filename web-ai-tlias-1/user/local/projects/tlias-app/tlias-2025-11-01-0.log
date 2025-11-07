@@ -1,0 +1,18 @@
+2025-11-01 21:30:13.101 [main] INFO  com.tlias.WebAiTlias1Application-Starting WebAiTlias1Application using Java 17.0.12 with PID 24024 (D:\works\Idea\web-ai-tlias-1\target\classes started by p1783 in D:\works\Idea\web-ai-tlias-1)
+2025-11-01 21:30:13.102 [main] INFO  com.tlias.WebAiTlias1Application-No active profile set, falling back to 1 default profile: "default"
+2025-11-01 21:30:13.709 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-11-01 21:30:13.714 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-01 21:30:13.715 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-11-01 21:30:13.716 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-01 21:30:13.755 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-11-01 21:30:13.755 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 630 ms
+2025-11-01 21:30:14.173 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-11-01 21:30:14.185 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-11-01 21:30:14.190 [main] INFO  com.tlias.WebAiTlias1Application-Started WebAiTlias1Application in 1.295 seconds (process running for 1.732)
+2025-11-01 21:30:21.906 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.tlias.WebAiTlias1ApplicationTests]: WebAiTlias1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-01 21:30:21.983 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.tlias.WebAiTlias1Application for test class com.tlias.WebAiTlias1ApplicationTests
+2025-11-01 21:30:22.290 [main] INFO  com.tlias.WebAiTlias1ApplicationTests-Starting WebAiTlias1ApplicationTests using Java 17.0.12 with PID 31044 (started by p1783 in D:\works\Idea\web-ai-tlias-1)
+2025-11-01 21:30:22.291 [main] INFO  com.tlias.WebAiTlias1ApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2025-11-01 21:30:24.241 [main] INFO  com.tlias.WebAiTlias1ApplicationTests-Started WebAiTlias1ApplicationTests in 2.16 seconds (process running for 2.886)
+2025-11-01 21:30:31.294 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-01 21:30:31.573 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete

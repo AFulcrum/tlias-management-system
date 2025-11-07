@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tlias.mapper.OperateLogMapper">
+
+    <select id="list" resultType="com.tlias.pojo.OperateLog">
+        SELECT ol.*, e.name as operateEmpName
+        FROM tlias_operate_log ol
+        LEFT JOIN tlias_emp e ON ol.operate_emp_id = e.id
+        <where>
+            <if test="operateEmpName != null and operateEmpName != ''">
+                AND e.name LIKE CONCAT('%', #{operateEmpName}, '%')
+            </if>
+        </where>
+        ORDER BY ol.operate_time DESC
+    </select>
+
+</mapper>

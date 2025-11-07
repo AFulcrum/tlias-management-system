@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.tlias.WebAiTlias1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.061 s -- in com.tlias.WebAiTlias1ApplicationTests
